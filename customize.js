@@ -4,17 +4,17 @@
 const config = {
   /* Site
   ========================================= */
-  title: `gatsby-blog-mdx`,          // Displayed in header
-  description: `This is my blog`,     // Site description
+  title: `Syahid Reza Mutahari`,          // Displayed in header
+  description: ``,     // Site description
   maxWidth: "768px",                  // Max width of website
   enableAbout: true,                  // Enables about page
-  siteUrl: `https://yourDomain.com/`, // For sitemap & RSS feed
+  siteUrl: `https://syahidreza.github.io/`, // For sitemap & RSS feed
   useScrollIndicator: true,           // Use scroll indicator on top of screen in posts
 
   /* Profile
   ========================================= */
-  author: `Author Name`,                             // Name shows on profile
-  profileDescription: "{Edit me in customize.js}",   // Shows under author name
+  author: `Syahid Reza Mutahari`,                             // Name shows on profile
+  profileDescription: "Front-end Developer",   // Shows under author name
   profileImageName: `profile.jpeg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
   location: "",                                      // Location under profileDescription. "" --> disabled
   footerLink: "",                                    // Link to page when you click footer name
@@ -24,13 +24,13 @@ const config = {
       showHeaderIcon: shows social media icon in header. When true, must have account name set
   ========================================= */
   socialMediaLinks: {
-    email:     { emailAddress: "", showHeaderIcon: true },
-    github:    { accountName: "", showHeaderIcon: true },
-    facebook:  { accountName: "", showHeaderIcon: true },
-    instagram: { accountName: "", showHeaderIcon: true },
-    twitter:   { accountName: "", showHeaderIcon: true },
-    linkedIn:  { accountName: "", showHeaderIcon: true },   // Use URL after "linkedin.com/"
-    medium:    { accountName: "", showHeaderIcon: true },   // Use URL after "medium.com/@"
+    email:     { emailAddress: "syahidreza@gmail.com", showHeaderIcon: true },
+    github:    { accountName: "syahidreza", showHeaderIcon: true },
+    facebook:  { accountName: "", showHeaderIcon: false },
+    instagram: { accountName: "", showHeaderIcon: false },
+    twitter:   { accountName: "syahidazer", showHeaderIcon: true },
+    linkedIn:  { accountName: "", showHeaderIcon: false },   // Use URL after "linkedin.com/"
+    medium:    { accountName: "", showHeaderIcon: false },   // Use URL after "medium.com/@"
   },
 
   /* Social Media Share Buttons--available below every post
